@@ -6,6 +6,13 @@ package recursion;
  */
 public class BinarySearch {
 
+    /**
+     * Recursively guesses a number
+     *
+     * @param upperborder specified upper border
+     * @param lowerborder specified lower border
+     * @param number the number to be guessed
+     */
     public void guessNumber(int upperborder, int lowerborder, int number) {
 
         int guess = (upperborder + lowerborder) / 2;
