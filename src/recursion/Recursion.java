@@ -7,6 +7,9 @@ package recursion;
  */
 public class Recursion {
 
+    /**
+     * 
+     */
     public static void testLoopRecursionCompare() {
         LoopAndRecursionComparison c = new LoopAndRecursionComparison();
 
@@ -19,18 +22,27 @@ public class Recursion {
         System.out.println();
     }
 
+    /**
+     * 
+     */
     public static void testFileWalker() {
         FileWalker luke = new FileWalker();
         luke.walk("C://Users/d.peters/documents");
         System.out.println();
     }
 
+    /**
+     * 
+     */
     public static void testBinarySearch() {
         BinarySearch search = new BinarySearch();
         search.guessNumber(100, 3, 9);
         System.out.println();
     }
 
+    /**
+     * 
+     */
     public static void testHanoiTowers() {
         HanoiTowers towers = new HanoiTowers();
         towers.moveDisks();

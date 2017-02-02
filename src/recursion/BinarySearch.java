@@ -18,7 +18,9 @@ public class BinarySearch {
         int guess = (upperborder + lowerborder) / 2;
 
         if (guess == number) {
+
             System.out.println("Found it! " + guess);
+
         } else {
 
             if (guess > number) {

@@ -8,12 +8,22 @@ import java.util.Scanner;
  */
 public class HanoiTowers {
 
+    /**
+     *
+     */
     public void moveDisks() {
         System.out.println("Bitte Anzahl Platten angeben");
         Scanner sc = new Scanner(System.in);
         move(sc.nextInt(), 'A', 'B', 'C');
     }
 
+    /**
+     *
+     * @param plateCount
+     * @param start
+     * @param middle
+     * @param end
+     */
     public void move(int plateCount, char start, char middle, char end) {
 
         if (plateCount == 1) {
